@@ -1,13 +1,23 @@
 # vuecli_demo
+'''
 Only gor beginners:-
+'''
 if you're in college or tech park or struggling to install vue cli /cli ui read my instruction here
+'''
 require node and npm with path settings
+'''
 1.download https://github.com/vuejs/vue-cli 
+'''
 2.Inside git repo find package folder
+'''
 3.inside package folder copy @vue 
+'''
 4.paste it c:/users/{username}/appdata/roaming/npm
+'''
 5.create batch file vue.bat
+'''
 6 paste the following code
+'''
  <code>
   @IF EXIST "%~dp0\node.exe" (
   "%~dp0\node.exe"  "%~dp0\@vue\cli\bin\vue" %*
@@ -17,7 +27,9 @@ require node and npm with path settings
   node  "%~dp0\@vue\cli\bin\vue" %*
 )
   </code>
+  '''
   7.thats it.
+  '''
   open cmd
   type vue or vue ui
   Note: It is fresh template for vue cli
