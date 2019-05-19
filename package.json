@@ -1,46 +1,40 @@
 {
   "name": "vuecli_demo",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A complete set of vue,bootstrap,node and oracle",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakashpaarthipan/vuecli_templates.git"
+  },
+  "keywords": [
+    "node",
+    "oracle",
+    "boostrap4",
+    "vue"
+  ],
+  "author": "P.Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prakashpaarthipan/vuecli_templates/issues"
+  },
+  "homepage": "https://github.com/Prakashpaarthipan/vuecli_templates#readme",
   "dependencies": {
-    "vue": "^2.5.21"
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "oracledb": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-eslint": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-core": "^6.0.20",
+    "babel-polyfill": "^6.0.16",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15"
+  }
 }
